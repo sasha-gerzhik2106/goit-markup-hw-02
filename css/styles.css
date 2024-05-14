@@ -68,22 +68,10 @@ color: #2e2f42;
 .adress-first:focus{
     color: #404bbf;
 }
-.adress-second{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:  #434455;
-}
-.adress-second:hover{
-    color: #404bbf;
-}
-.adress-second:focus{
-    color: #404bbf;
-}
 .section-first{
     background-color: #2e2f42;    
 }
-.h1{
+.h-one{
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -106,12 +94,8 @@ color: #ffffff;
 .button:focus{
     background-color: #404BBF;
 }
-.features h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42;
+.features{
+
 }
 .hover-three{
     font-weight: 500;
@@ -129,7 +113,7 @@ color: #ffffff;
 .section-third{
     background-color: #F4F4FD;
 }
-.Our-Team{
+.our-Team{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
