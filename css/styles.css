@@ -38,13 +38,17 @@ color: #2e2f42;
 .site-nav li:focus{
     color: #404bbf;
 }
+.first{
+    color: #2e2f42;
+}
+.first:hover{
+    color: #404bbf;
+}
+.first:focus{
+    color:#404bbf;
+}
 .adress{
-    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 .adress:hover{
     color:  #404bbf;
@@ -52,12 +56,36 @@ color: #2e2f42;
 .adress:focus{
     color:  #404bbf;
 }
-.section-1{
+.adress-first{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+.adress-first:hover{
+    color: #404bbf;
+}
+.adress-first:focus{
+    color: #404bbf;
+}
+.adress-second{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+.adress-second:hover{
+    color: #404bbf;
+}
+.adress-second:focus{
+    color: #404bbf;
+}
+.section-first{
     background-color: #2e2f42;    
 }
-h1{
+.h1{
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
@@ -85,13 +113,20 @@ color: #ffffff;
     letter-spacing: 0.02em;
     color:  #2e2f42;
 }
-.features p{
+.hover-three{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+}
+.paragraph-one{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-3{
+.section-third{
     background-color: #F4F4FD;
 }
 .Our-Team{
@@ -102,21 +137,23 @@ color: #ffffff;
     text-transform: capitalize;
     color: #2e2f42;
 }
-.Team li{
+.list-one{
     background-color: #FFFFFF;
+}
+.hover-team{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.Team p{
+.paragraph-team{
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
-.Our-features{
+.our-features{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -124,36 +161,23 @@ color: #ffffff;
     text-transform: capitalize;
     color: #2e2f42;
 }
-.Our-features h3{
+.hover-apps{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.Our-features p{
+.p-apps{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.Portfolio-2 h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.Portfolio-2 p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.section-6{
+.section-six{
     background-color: #2e2f42;
 }
-.web-2{
+.web-two{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -162,10 +186,10 @@ color: #ffffff;
     text-transform: uppercase;
     color: #4d5ae5 ;
 }
-.text-2{
+.text-two{
     color: #f4f4fd;
 }
-.p-6{
+.p-six{
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
